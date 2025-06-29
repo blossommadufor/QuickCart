@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/HomeProduct.jsx", "components/OrderSummary.jsx", "components/ProductCard.jsx", "components/NewsLetter.jsx", "components/Navbar.jsx", "components/Loading.jsx", "components/HeaderSlider.jsx", "components/Footer.jsx", "components/FeaturedProduct.jsx", "components/Banner.jsx", "app/page.jsx"],
+  "exclude": ["node_modules"]
+}
